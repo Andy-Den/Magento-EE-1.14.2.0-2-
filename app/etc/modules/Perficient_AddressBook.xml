@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_AddressBook>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Perficient_AddressBook>
+    </modules>
+</config>

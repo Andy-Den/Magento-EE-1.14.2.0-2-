@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_Productattribute>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Perficient_Productattribute>
+    </modules>
+</config>

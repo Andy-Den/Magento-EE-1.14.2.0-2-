@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_Xternal>
+            <version>1.0.0</version>
+        </Perficient_Xternal>
+    </modules>
+    <global>
+        <blocks>
+            <perficient_externals>
+                <class>Perficient_Xternal_Block</class>
+            </perficient_externals>
+            <page>
+                <rewrite>
+                    <html_head>Perficient_Xternal_Block_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <perficient_xternal module="Perficient_Xternal">
+                    <file>perficient_xternal.xml</file>
+                </perficient_xternal>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <layout>
+            <updates>
+                <perficient_editor>
+                    <file>perficient_editor.xml</file>
+                </perficient_editor>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

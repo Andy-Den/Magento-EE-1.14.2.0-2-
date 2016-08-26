@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_Cronjob>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Perficient_Cronjob>
+    </modules>
+</config>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_Customerattribute>
+            <version>0.1.0</version>
+        </Perficient_Customerattribute>
+    </modules>
+    <global>
+        <models>
+            <customerattribute>
+                <class>Perficient_Customerattribute_Model</class>
+            </customerattribute>
+        </models>
+
+        <resources>
+            <Perficient_Customerattribute_setup>
+                <setup>
+                    <module>Perficient_Customerattribute</module>
+                    <class>Mage_Customer_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </Perficient_Customerattribute_setup>
+
+            <Perficient_Customerattribute_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </Perficient_Customerattribute_write>
+
+            <Perficient_Customerattribute_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </Perficient_Customerattribute_read>
+        </resources>
+    </global>
+
+</config>

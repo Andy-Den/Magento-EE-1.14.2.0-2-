@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!-- Root node for Magento layout configuration -->
+<layout version="0.1.0">
+<!--Page handle -->
+<helloworld_index_index>
+<!-- reference tag specifies the block where we a going to add child block -->
+<reference name="content">
+<!-- Our page content block -->
+<block type="core/template" name="helloworld" template="helloworld/view.phtml"></block>
+</reference>
+</helloworld_index_index>
+</layout>

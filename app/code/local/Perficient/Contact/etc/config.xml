@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Perficient_Contact>
+            <version>0.1.0</version>
+        </Perficient_Contact>
+    </modules>
+
+    <frontend>
+        <routers>
+            <JustSomeFreeRouterNameHereNo1>
+                <use>standard</use>
+                <args>
+                    <module>Perficient_Contact</module>
+                    <frontName>pcontact</frontName>
+                </args>
+            </JustSomeFreeRouterNameHereNo1>
+        </routers>
+    </frontend>
+</config>

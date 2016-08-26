@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_Checkcart>
+            <version>0.1.0</version>
+        </Perficient_Checkcart>
+    </modules>
+    <global>
+        <models>
+            <perficient_checkcart>
+                <class>Perficient_Checkcart_Model</class>
+            </perficient_checkcart>
+        </models>
+        <events>
+            <checkout_cart_product_add_before>
+                <observers>
+                    <Perficient_Checkcart_Model_Observer>
+                        <type>singleton</type>
+                        <class>Perficient_Checkcart_Model_Observer</class>
+                        <method>addtocartEvent</method>
+                    </Perficient_Checkcart_Model_Observer>
+                </observers>
+            </checkout_cart_product_add_after>
+
+            <!--<review_save_before>-->
+                <!--<observers>-->
+                    <!--<Perficient_Checkcart_Model_Observer>-->
+                        <!--<type>singleton</type>-->
+                        <!--<class>Perficient_Checkcart_Model_Observer</class>-->
+                        <!--<method>autoApproveReview</method>-->
+                    <!--</Perficient_Checkcart_Model_Observer>-->
+                <!--</observers>-->
+            <!--</review_save_before>-->
+        </events>
+    </global>
+
+</config>

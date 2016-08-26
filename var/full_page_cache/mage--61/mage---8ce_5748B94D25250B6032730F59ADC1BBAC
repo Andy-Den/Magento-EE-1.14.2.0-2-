@@ -1,0 +1,130 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1450788421;s:6:"expire";i:1450874821;s:4:"tags";s:271:"8ce_FPC,8ce_CATALOG_PRODUCT_421,8ce_CATALOG_PRODUCT_424,8ce_CATALOG_PRODUCT_423,8ce_CATALOG_PRODUCT_422,8ce_CATALOG_PRODUCT_418,8ce_BLOCK_HTML,8ce_CATALOG_PRODUCT_421,8ce_CATALOG_PRODUCT_424,8ce_CATALOG_PRODUCT_423,8ce_CATALOG_PRODUCT_422,8ce_CATALOG_PRODUCT_418,8ce_MAGE";}
+<div class="box-collateral box-related block-related">
+    <div class="block-title">
+        <h2>Related Products</h2>
+    </div>
+    <p class="note block-subtitle">Check items to add to the cart or&nbsp;<a href="#" onclick="selectAllRelated(this); return false;"><strong>select all</strong></a></p>
+    <ol class="box-content mini-products-list">
+                            <li class="item first">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED_0544a113d8a7260e07460dba880b92df}-->        <div class="item-info product">
+        <a href="http://magento-dev.local/tori-tank-546.html" class="product-image"><img src="http://magento-dev.local/media/catalog/product/cache/1/small_image/75x/9df78eab33525d08d6e5fb8d27136e95/w/b/wbk003t.jpg" width="75" height="75" alt="HARIS Tori Tank" title="HARIS Tori Tank" /></a>
+        <div class="product-details">
+            <h3 class="product-name"><a href="http://magento-dev.local/tori-tank-546.html">HARIS Tori Tank</a></h3>
+            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-418-related">
+                                            <span class="price">$60.00</span>                                    </span>
+                        
+        </div>
+
+                            <p><a href="http://magento-dev.local/wishlist/index/add/product/418/form_key/{{_FORM_KEY_MARKER_}}/" class="link-wishlist">Add to Wishlist</a></p>
+                    </div>
+    </div>
+<!--/{CATALOG_PRODUCT_ITEM_RELATED_0544a113d8a7260e07460dba880b92df}-->        </li>
+                                    <li class="item">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED_00ceeb22892ecca4ad19128b9e538db9}-->        <div class="item-info product">
+        <a href="http://magento-dev.local/essex-pencil-skirt.html" class="product-image"><img src="http://magento-dev.local/media/catalog/product/cache/1/small_image/75x/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd000t.jpg" width="75" height="75" alt="HARIS Essex Pencil Skirt" title="HARIS Essex Pencil Skirt" /></a>
+        <div class="product-details">
+            <h3 class="product-name"><a href="http://magento-dev.local/essex-pencil-skirt.html">HARIS Essex Pencil Skirt</a></h3>
+            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-422-related">
+                                            <span class="price">$185.00</span>                                    </span>
+                        
+        </div>
+
+                            <p><a href="http://magento-dev.local/wishlist/index/add/product/422/form_key/{{_FORM_KEY_MARKER_}}/" class="link-wishlist">Add to Wishlist</a></p>
+                    </div>
+    </div>
+<!--/{CATALOG_PRODUCT_ITEM_RELATED_00ceeb22892ecca4ad19128b9e538db9}-->        </li>
+                                    <li class="item last">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED_ab1aa45b4adeb21325e8326eab96d173}-->        <div class="item-info product">
+        <a href="http://magento-dev.local/racer-back-maxi-dress-550.html" class="product-image"><img src="http://magento-dev.local/media/catalog/product/cache/1/small_image/75x/9df78eab33525d08d6e5fb8d27136e95/w/s/wsd005t_2.jpg" width="75" height="75" alt="HARIS Racer Back Maxi Dress" title="HARIS Racer Back Maxi Dress" /></a>
+        <div class="product-details">
+            <h3 class="product-name"><a href="http://magento-dev.local/racer-back-maxi-dress-550.html">HARIS Racer Back Maxi Dress</a></h3>
+            
+
+                        
+    <div class="price-box">
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-423-related">
+                    $280.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" id="product-price-423-related">
+                    $224.00                </span>
+                </p>
+                    
+    
+        </div>
+
+                            <p><a href="http://magento-dev.local/wishlist/index/add/product/423/form_key/{{_FORM_KEY_MARKER_}}/" class="link-wishlist">Add to Wishlist</a></p>
+                    </div>
+    </div>
+<!--/{CATALOG_PRODUCT_ITEM_RELATED_ab1aa45b4adeb21325e8326eab96d173}-->        </li>
+                                    <li class="item first">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED_a3482085a8d87016fe75751ab2ad05bc}-->        <div class="item-info product">
+        <a href="http://magento-dev.local/elizabeth-knit-top-549.html" class="product-image"><img src="http://magento-dev.local/media/catalog/product/cache/1/small_image/75x/9df78eab33525d08d6e5fb8d27136e95/w/b/wbk012t.jpg" width="75" height="75" alt="HARIS Elizabeth Knit Top" title="HARIS Elizabeth Knit Top" /></a>
+        <div class="product-details">
+            <h3 class="product-name"><a href="http://magento-dev.local/elizabeth-knit-top-549.html">HARIS Elizabeth Knit Top</a></h3>
+            
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-421-related">
+                                            <span class="price">$210.00</span>                                    </span>
+                        
+        </div>
+
+                            <p><a href="http://magento-dev.local/wishlist/index/add/product/421/form_key/{{_FORM_KEY_MARKER_}}/" class="link-wishlist">Add to Wishlist</a></p>
+                    </div>
+    </div>
+<!--/{CATALOG_PRODUCT_ITEM_RELATED_a3482085a8d87016fe75751ab2ad05bc}-->        </li>
+                </ol>
+    <script type="text/javascript">decorateGeneric($$('.box-related ul.box-content'), ['odd','even','first','last'])</script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+    $$('.related-checkbox').each(function(elem){
+        Event.observe(elem, 'click', addRelatedToProduct)
+    });
+
+    var relatedProductsCheckFlag = false;
+    function selectAllRelated(txt){
+        if (relatedProductsCheckFlag == false) {
+            $$('.related-checkbox').each(function(elem){
+                elem.checked = true;
+            });
+            relatedProductsCheckFlag = true;
+            txt.innerHTML = "<strong>unselect all<\/strong>";
+        } else {
+            $$('.related-checkbox').each(function(elem){
+                elem.checked = false;
+            });
+            relatedProductsCheckFlag = false;
+            txt.innerHTML = "<strong>select all<\/strong>";
+        }
+        addRelatedToProduct();
+    }
+
+    function addRelatedToProduct(){
+        var checkboxes = $$('.related-checkbox');
+        var values = [];
+        for(var i=0;i<checkboxes.length;i++){
+            if(checkboxes[i].checked) values.push(checkboxes[i].value);
+        }
+        if($('related-products-field')){
+            $('related-products-field').value = values.join(',');
+        }
+    }
+    //]]>
+    </script>
+</div>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Perficient_LogProductUpdate>
+            <version>0.0.1</version>
+        </Perficient_LogProductUpdate>
+    </modules>
+
+    <!-- Configure our module's behavior in the global scope -->
+    <global>
+
+        <!-- Defining models -->
+        <models>
+
+            <!--
+                Unique identifier in the model's node.
+                By convention, we put the module's name in lowercase.
+            -->
+            <perficient_logproductupdate>
+
+                <!--
+                    The path to our models directory, with directory
+                    separators replaced by underscores
+                -->
+                <class>Perficient_LogProductUpdate_Model</class>
+
+            </perficient_logproductupdate>
+
+        </models>
+
+        <events>
+            <catalog_product_save_after>
+                <observers>
+                    <perficient_logproductupdate>
+                        <class>perficient_logproductupdate/observer</class>
+                        <method>logUpdate</method>
+                        <type>singleton</type>
+                    </perficient_logproductupdate>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+
+    </global>
+
+</config>

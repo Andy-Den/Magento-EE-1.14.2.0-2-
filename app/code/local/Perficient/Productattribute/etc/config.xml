@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_Productattribute>
+            <version>0.1.0</version>
+        </Perficient_Productattribute>
+    </modules>
+    <global>
+        <models>
+            <productattribute>
+                <class>Perficient_Productattribute_Model</class>
+            </productattribute>
+        </models>
+
+        <resources>
+            <Perficient_Productattribute_setup>
+                <setup>
+                    <module>Perficient_Productattribute</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </Perficient_Productattribute_setup>
+
+            <Perficient_Productattribute_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </Perficient_Productattribute_write>
+
+            <Perficient_Productattribute_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </Perficient_Productattribute_read>
+        </resources>
+        <!--<helpers>-->
+            <!--<Perficient_Productattribute>-->
+                <!--&lt;!&ndash; This is where we define our helper directory &ndash;&gt;-->
+                <!--<class>Perficient_Productattribute_Helper</class>-->
+            <!--</Perficient_Productattribute>-->
+        <!--</helpers>-->
+
+    </global>
+
+</config>

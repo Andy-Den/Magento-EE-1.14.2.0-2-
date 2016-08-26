@@ -1,0 +1,37 @@
+title:MAGMI by dweeves - version:0.7.22
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+startup:Import Profile: new
+startup:Import Mode:create
+step:step:0.5%
+startup:Attributeset update is enabled.
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+plugin;EmailReportPlugin;pluginhello:Import Report Mail Notifier-1.0.0-Dweeves-http://wiki.magmi.org/index.php?title=Import_report_mail_notifier 
+plugin;Magmi_ReindexingPlugin;pluginhello:Magmi Magento Reindexer-1.0.3a-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Magento_Reindexer 
+plugin;Magmi_ReindexingPlugin;startup:Magmi Magento Reindexer v1.0.3a - Using execution mode :popen
+plugin;productdeleter;pluginhello:Product Deleter-0.0.2-Dweeves-http://wiki.magmi.org/index.php?title=Product_Deleter 
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+plugin;Magmi_GroupedItemProcessor;pluginhello:Grouped Item processor-1.4.1-Alpine Consulting, Inc & Dweeves-http://wiki.magmi.org/index.php?title=Grouped_Item_processor 
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+plugin;CrossUpsellProducts;pluginhello:Cross/Upsell Importer-1.0.3-Dweeves-http://wiki.magmi.org/index.php?title=Cross/Upsell_Importer 
+plugin;RelatedProducts;pluginhello:Product relater-1.0.3-Dweeves,jwtechniek-http://wiki.magmi.org/index.php?title=Product_relater 
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+startup:Performing Datasource Lookup...
+lookup:1:0.0014760494232178
+startup:Found 1 records, took 0.0014760494232178 sec
+info:Initialized attribute_set_infos!
+columns:10
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns 
+plugin;Magmi_ConfigurableItemProcessor;startup:Configurable Item processor v1.3.7a - no options_container set, defaulting to :Block after product info
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:store,type,status,page_layout
+startup:Ajusted processed columns:15
+itime:1 - 3.6954879760742E-5 - 3.6954879760742E-5
+dbtime:0 - 0 - 0 - 0
+itime:1 - 0.044970035552979 - 0.043842077255249
+dbtime:18 - 0.039278030395508 - 0.039278030395508 - 18
+info:Skus imported OK:1/1
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Cleaning flat tables before reindex...
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - running indexer
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing ....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Stock Status index was rebuilt successfully in 00:00:00<br>Catalog product price index was rebuilt successfully in 00:00:00<br>Category URL Rewrites index was rebuilt successfully in 00:00:00<br>Product URL Rewrites index was rebuilt successfully in 00:00:00<br>URL Redirects index was rebuilt successfully in 00:00:00<br>Catalog Category/Product Index index was rebuilt successfully in 00:00:00<br>Catalog Search Index index was rebuilt successfully in 00:00:00<br>Tag Aggregation Data index was rebuilt successfully in 00:00:00<br>Product Attributes index was rebuilt successfully in 00:00:00<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 6.45 secs
+end:Import Ended

@@ -1,0 +1,2 @@
+sku,name,price,qty,is_in_stock,visibility,image,weight,categories,tax_class_id
+demo-001,Demo 1,12,19,1,4,cloud.png,0,demo categorie,2

@@ -1,0 +1,37 @@
+<div class="box contact">
+
+    <form id="contact_form" name="contact_form" action="<?php echo $this->getUrl('pcontact/') ?>index/sendemail" method="post">
+
+        <fieldset class="group-select">
+            <h4 class="legend">Perficient SimpleContact module sample</h4>
+            <ul>
+                <li>
+                    <div class="input-box">
+                        <label for="name">Your name <span class="required">*</span></label><br />
+
+                        <input name="name" id="name" title="Name" value="" class="input-text required-entry" type="text" />
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Your email <span class="required">*</span></label><br />
+                        <input name="email" id="email" title="Email" value="" class="input-text required-entry validate-email" type="text" />
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="input-box">
+                        <label for="comment">Comment</label><br />
+
+                        <textarea name="comment" id="comment" title="Comment" class="input-text required-entry" style="height:100px;" cols="50" rows="3"></textarea>
+                    </div>
+                </li>
+            </ul>
+        </fieldset>
+        <div class="button-set">
+            <p class="required">* Required Fields</p>
+            <button class="form-button" type="submit"><span>Send</span></button>
+
+        </div>
+    </form>
+
+</div>

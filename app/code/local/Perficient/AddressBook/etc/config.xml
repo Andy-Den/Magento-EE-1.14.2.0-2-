@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_AddressBook>
+            <version>1.0.2</version>
+        </Perficient_AddressBook>
+    </modules>
+
+    <frontend>
+        <routers>
+            <addressbook>
+                <use>standard</use>
+                <args>
+                    <module>Perficient_AddressBook</module>
+                    <frontName>web</frontName>
+                </args>
+            </addressbook>
+        </routers>
+        <layout>
+            <updates>
+                <addressbook>
+                    <file>addressbook.xml</file>
+                </addressbook>
+            </updates>
+        </layout>
+    </frontend>
+
+
+
+
+    <global>
+        <helpers>
+            <perficient_addressbook>
+                <!-- This is where we define our helper directory -->
+                <class>Perficient_AddressBook_Helper</class>
+            </perficient_addressbook>
+        </helpers>
+
+        <blocks>
+            <perficient_addressbook>
+                <!-- Set a block definition and lookup directory -->
+                <class>Perficient_AddressBook_Block</class>
+            </perficient_addressbook>
+        </blocks>
+
+        <models>
+            <catalog>
+                <rewrite>
+                    <product>Perficient_AddressBook_Model_Product</product>
+                </rewrite>
+            </catalog>
+
+            <perficient_addressbook>
+                <!-- This is where we define our model directory -->
+                <class>Perficient_AddressBook_Model</class>
+                <!-- Define a resource to create a custom table -->
+                <resourceModel>perficient_addressbook_mysql4</resourceModel>
+            </perficient_addressbook>
+
+            <!-- Here's our resource model we'll use to create a database table -->
+            <perficient_addressbook_mysql4>
+                <class>Perficient_AddressBook_Model_Mysql4</class>
+                <entities>
+                    <!-- Let's define our table, we'll call it with the baz name, but the real table is perficient_addressbook_baz -->
+                    <!-- After we define our entity, we can call it with our model by calling perficient_addressbook/baz -->
+                    <baz>
+                        <table>perficient_addressbook_baz</table>
+                    </baz>
+                </entities>
+            </perficient_addressbook_mysql4>
+        </models>
+
+        <!-- And finally we define our resource setup script -->
+        <resources>
+            <perficient_addressbook_setup>
+                <setup>
+                    <module>Perficient_AddressBook</module>
+                </setup>
+            </perficient_addressbook_setup>
+
+
+        </resources>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <!-- This is how we load our Adminhtml controllers -->
+                    <modules>
+                        <Perficient_AddressBook before="Mage_Adminhtml">Perficient_AddressBook_Adminhtml</Perficient_AddressBook>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <perficient_addressbook>
+                    <!--
+                    We again keep a nice naming convention and make our module upgrade proof by placing it in a separate folder
+                    - Since we are in the adminhtml node, this will look for the XML file in the app/design/adminhtml/default/default root folder
+                    -->
+                    <file>perficient/addressbook.xml</file>
+                </perficient_addressbook>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

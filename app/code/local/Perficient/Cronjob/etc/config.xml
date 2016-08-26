@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Perficient_Cronjob> <!-- module should be same sa filepath -->
+            <version>1.0.0</version>
+        </Perficient_Cronjob>
+    </modules>
+
+    <global>
+        <models>
+            <cronjob> <!--  change <Mymodule> to <mymodule>  -->
+                <class>Perficient_Cronjob_Model</class>
+            </cronjob>
+            <!-- same chnage here -->
+        </models>
+        <template>
+            <email>
+                <!-- Give the template a uniqiue name, you'll need to refer to this later when sending the email-->
+                <cron_email translate="label" module="cronjob">
+                    <label>Test Email Template</label>
+                    <file>cron_email.html</file>
+                    <type>html</type>
+                </cron_email>
+            </email>
+        </template>
+
+
+    </global>
+
+    <crontab>
+        <jobs>
+            <perficient_cronjob>
+                <schedule>
+                    <!--<cron_expr>* * * * *</cron_expr>  -->
+                    <cron_expr>*/5 * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>cronjob/observerx::doSomething</model>
+                </run>
+            </perficient_cronjob>
+        </jobs>
+    </crontab>
+</config>

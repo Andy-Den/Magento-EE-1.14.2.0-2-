@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Perficient_Categoryattribute>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Perficient_Categoryattribute>
+    </modules>
+</config>

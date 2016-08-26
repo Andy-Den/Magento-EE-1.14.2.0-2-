@@ -1,0 +1,55 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1450695819;s:6:"expire";i:1450782219;s:4:"tags";s:151:"8ce_FPC,8ce_BLOCK_HTML,8ce_CATALOG_PRODUCT_418,8ce_CATALOG_PRODUCT_424,8ce_CATALOG_PRODUCT_423,8ce_CATALOG_PRODUCT_422,8ce_CATALOG_PRODUCT_421,8ce_MAGE";}
+<div class="box-collateral box-related block-related">
+    <div class="block-title">
+        <h2>Related Products</h2>
+    </div>
+    <p class="note block-subtitle">Check items to add to the cart or&nbsp;<a href="#" onclick="selectAllRelated(this); return false;"><strong>select all</strong></a></p>
+    <ol class="box-content mini-products-list">
+                            <li class="item first">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED container="Enterprise_PageCache_Model_Container_Item_Related" block="Enterprise_TargetRule_Block_Catalog_Product_Item" cache_id="193fa8fde61907b03a635821ecc3002ebd3d6fda" cache_lifetime="86400" template="targetrule/catalog/product/list/related/item.phtml" price_block_type_msrp_block="catalog/product_price" price_block_type_msrp_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_item_block="catalog/product_price" price_block_type_msrp_item_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_noform_block="catalog/product_price" price_block_type_msrp_noform_template="catalog/product/price_msrp_noform.phtml" price_block_type_bundle_block="bundle/catalog_product_price" price_block_type_bundle_template="bundle/catalog/product/price.phtml" price_block_type_giftcard_block="enterprise_giftcard/catalog_product_price" price_block_type_giftcard_template="giftcard/catalog/product/price.phtml" item_id="422"}-->        </li>
+                                    <li class="item">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED container="Enterprise_PageCache_Model_Container_Item_Related" block="Enterprise_TargetRule_Block_Catalog_Product_Item" cache_id="0b581c93ba9ef470cb0ef2efecf9f6a45ecb9afe" cache_lifetime="86400" template="targetrule/catalog/product/list/related/item.phtml" price_block_type_msrp_block="catalog/product_price" price_block_type_msrp_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_item_block="catalog/product_price" price_block_type_msrp_item_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_noform_block="catalog/product_price" price_block_type_msrp_noform_template="catalog/product/price_msrp_noform.phtml" price_block_type_bundle_block="bundle/catalog_product_price" price_block_type_bundle_template="bundle/catalog/product/price.phtml" price_block_type_giftcard_block="enterprise_giftcard/catalog_product_price" price_block_type_giftcard_template="giftcard/catalog/product/price.phtml" item_id="423"}-->        </li>
+                                    <li class="item last">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED container="Enterprise_PageCache_Model_Container_Item_Related" block="Enterprise_TargetRule_Block_Catalog_Product_Item" cache_id="40b6c37e8e3071a3dab2253efefe5465dc49b59f" cache_lifetime="86400" template="targetrule/catalog/product/list/related/item.phtml" price_block_type_msrp_block="catalog/product_price" price_block_type_msrp_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_item_block="catalog/product_price" price_block_type_msrp_item_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_noform_block="catalog/product_price" price_block_type_msrp_noform_template="catalog/product/price_msrp_noform.phtml" price_block_type_bundle_block="bundle/catalog_product_price" price_block_type_bundle_template="bundle/catalog/product/price.phtml" price_block_type_giftcard_block="enterprise_giftcard/catalog_product_price" price_block_type_giftcard_template="giftcard/catalog/product/price.phtml" item_id="421"}-->        </li>
+                                    <li class="item first">
+            <!--{CATALOG_PRODUCT_ITEM_RELATED container="Enterprise_PageCache_Model_Container_Item_Related" block="Enterprise_TargetRule_Block_Catalog_Product_Item" cache_id="8928dca320fe0239930dd3a8b42b72fc3094d300" cache_lifetime="86400" template="targetrule/catalog/product/list/related/item.phtml" price_block_type_msrp_block="catalog/product_price" price_block_type_msrp_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_item_block="catalog/product_price" price_block_type_msrp_item_template="catalog/product/price_msrp_item.phtml" price_block_type_msrp_noform_block="catalog/product_price" price_block_type_msrp_noform_template="catalog/product/price_msrp_noform.phtml" price_block_type_bundle_block="bundle/catalog_product_price" price_block_type_bundle_template="bundle/catalog/product/price.phtml" price_block_type_giftcard_block="enterprise_giftcard/catalog_product_price" price_block_type_giftcard_template="giftcard/catalog/product/price.phtml" item_id="418"}-->        </li>
+                </ol>
+    <script type="text/javascript">decorateGeneric($$('.box-related ul.box-content'), ['odd','even','first','last'])</script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+    $$('.related-checkbox').each(function(elem){
+        Event.observe(elem, 'click', addRelatedToProduct)
+    });
+
+    var relatedProductsCheckFlag = false;
+    function selectAllRelated(txt){
+        if (relatedProductsCheckFlag == false) {
+            $$('.related-checkbox').each(function(elem){
+                elem.checked = true;
+            });
+            relatedProductsCheckFlag = true;
+            txt.innerHTML = "<strong>unselect all<\/strong>";
+        } else {
+            $$('.related-checkbox').each(function(elem){
+                elem.checked = false;
+            });
+            relatedProductsCheckFlag = false;
+            txt.innerHTML = "<strong>select all<\/strong>";
+        }
+        addRelatedToProduct();
+    }
+
+    function addRelatedToProduct(){
+        var checkboxes = $$('.related-checkbox');
+        var values = [];
+        for(var i=0;i<checkboxes.length;i++){
+            if(checkboxes[i].checked) values.push(checkboxes[i].value);
+        }
+        if($('related-products-field')){
+            $('related-products-field').value = values.join(',');
+        }
+    }
+    //]]>
+    </script>
+</div>

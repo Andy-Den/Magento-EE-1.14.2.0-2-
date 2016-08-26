@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_editor_index>
+        <reference name="content">
+            <block type="perficient_editor/adminhtml_editor" name="wysiwyg_editor_form"/>
+        </reference>
+    </adminhtml_editor_index>
+</layout>

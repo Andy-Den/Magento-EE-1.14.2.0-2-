@@ -1,0 +1,43 @@
+<config>
+    <modules>
+        <Perficient_Mymodule>
+            <version>0.1.0</version>
+        </Perficient_Mymodule>
+    </modules>
+    <global>
+        <models>
+            <mymodule>
+                <class>Perficient_Mymodule_Model</class>
+            </mymodule>
+        </models>
+        <helpers>
+            <mymodule>
+                <class>Perficient_Mymodule_Helper</class>
+            </mymodule>
+        </helpers>
+    </global>
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <perficient>
+                                            <title>Perficient - All</title>
+                                        </perficient>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Perficient_Orders>
+            <version>0.0.0.1</version>
+        </Perficient_Orders>
+    </modules>
+
+    <global>
+        <!--<models>-->
+            <!--<perficient_orders>-->
+                <!--<class>Perficient_Orders_Model</class>-->
+                <!--<resourceModel>perficient_orders_resource</resourceModel>-->
+            <!--</perficient_orders>-->
+        <!--</models>-->
+
+        <!--<resources>-->
+            <!--<perficient_orders_setup>-->
+                <!--<setup>-->
+                    <!--<module>Perficient_Orders</module>-->
+                <!--</setup>-->
+            <!--</perficient_orders_setup>-->
+        <!--</resources>-->
+
+        <blocks>
+            <perficient_orders>
+                <class>Perficient_Orders_Block</class>
+            </perficient_orders>
+        </blocks>
+
+        <helpers>
+            <perficient_orders>
+                <class>Perficient_Orders_Helper</class>
+            </perficient_orders>
+        </helpers>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <perficient_orders before="Mage_Adminhtml">Perficient_Orders_Adminhtml</perficient_orders>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

@@ -1,0 +1,15 @@
+<layout version="0.1.0">
+    <default>
+        <reference name="content">
+            <block type="weblog/myblock" name="readpost" template="weblog/weblog.phtml" />
+        </reference>
+    </default>
+    <!--<weblog_index_readpost>-->
+        <!--<reference name="content">-->
+            <!--<block type="weblog/Myblock" name="readpost" template="weblog/weblog.phtml" />-->
+        <!--</reference>-->
+    <!--</weblog_index_readpost>-->
+</layout>
+
+
+

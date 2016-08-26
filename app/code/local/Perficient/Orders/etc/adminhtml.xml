@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<config>
+    <menu>
+        <sales>
+            <children>
+                <perficient_orders translate="title" module="perficient_orders">
+                    <sort_order>11</sort_order>
+                    <title>Orders - Perficient</title>
+                    <action>adminhtml/order/</action>
+                </perficient_orders>
+            </children>
+        </sales>
+    </menu>
+</config>

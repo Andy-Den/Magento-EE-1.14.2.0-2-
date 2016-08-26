@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Perficient_Catalog>
+            <version>0.0.1</version>
+        </Perficient_Catalog>
+    </modules>
+    <global>
+        <blocks>
+            <catalog>
+                <rewrite>
+                    <category_view>Perficient_Catalog_Block_Category_View</category_view>
+                </rewrite>
+            </catalog>
+        </blocks>
+
+        <models>
+            <catalog_resource>
+                <rewrite>
+                    <category_tree>Perficient_Catalog_Model_Resource_Category_Tree</category_tree>
+                </rewrite>
+            </catalog_resource>
+        </models>
+    </global>
+</config>

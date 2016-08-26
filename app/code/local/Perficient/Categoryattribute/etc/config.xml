@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Perficient_Categoryattribute>
+            <version>1.0.0</version>
+        </Perficient_Categoryattribute>
+    </modules>
+    <global>
+        <models>
+            <categoryattribute>
+                <class>Perficient_Categoryattribute_Model</class>
+            </categoryattribute>
+        </models>
+
+        <resources>
+            <Perficient_Categoryattribute_Setup>
+                <setup>
+                    <module>Perficient_Categoryattribute</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </Perficient_Categoryattribute_Setup>
+
+            <Perficient_Categoryattribute_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </Perficient_Categoryattribute_write>
+
+            <Perficient_Categoryattribute_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </Perficient_Categoryattribute_read>
+        </resources>
+        <!--<helpers>-->
+            <!--<Perficient_Categoryattribute>-->
+                <!--&lt;!&ndash; This is where we define our helper directory &ndash;&gt;-->
+                <!--<class>Perficient_Categoryattribute_Helper</class>-->
+            <!--</Perficient_Categoryattribute>-->
+        <!--</helpers>-->
+
+    </global>
+
+</config>
